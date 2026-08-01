@@ -1,19 +1,51 @@
 aid: skygiraffe
-name: Skygiraffe
-description: Skygiraffe is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skygiraffe.png
+name: SkyGiraffe
+description: >-
+  SkyGiraffe was an enterprise-grade mobility platform that let companies build
+  customized, job-specific mobile apps with no coding, connecting mobile
+  workforces to corporate systems of record such as SAP, Oracle, Salesforce and
+  ServiceNow. In 2016 the company added developer access, exposing a single
+  secure endpoint for third-party apps to read from and write to those backend
+  enterprise systems through the SkyGiraffe platform. Backed by 500 Startups (now
+  500 Global), Microsoft Ventures, and Trilogy Equity Partners across ~$10.5M in
+  funding, SkyGiraffe was acquired by ServiceNow on October 25, 2017 and its
+  technology and team were absorbed into ServiceNow's Now Platform mobile
+  capabilities. The independent skygiraffe.com domain no longer hosts a product,
+  developer portal, or API — it 301-redirects to ServiceNow's acquisition
+  announcement — so there is no live, independent API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/skygiraffe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: servicenow
+x-acquired-date: '2017-10-25'
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Acquired
+- Enterprise Mobility
+- Mobile App Platform
+- No-Code
+- Enterprise Integration
+- ServiceNow
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,14 @@ maintainers:
 common:
 - type: Website
   url: https://skygiraffe.com
+- type: Acquisition
+  url: https://www.servicenow.com/company/media/press-room/servicenow-acquires-skygiraffe.html
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/skygiraffe
+- type: LinkedIn
+  url: https://www.linkedin.com/company/skygiraffe
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
