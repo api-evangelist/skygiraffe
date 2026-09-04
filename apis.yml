@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://skygiraffe.com', status: 301, note: 'declared website redirects to https://www.servicenow.com/company/media/press-room/servicenow-acquires-skygiraffe.html — a different registrable domain (skygiraffe.com -> servicenow.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skygiraffe.png
 name: SkyGiraffe
 description: >-
